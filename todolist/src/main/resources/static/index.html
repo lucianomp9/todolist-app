@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Dashboard</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Custom styles for this template-->
+
+
+</head>
+<body id="page-top">
+<!-- Page Wrapper -->
+<div id="wrapper">
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+
+        <!-- Main Content -->
+        <div id="content">
+
+            <!-- Begin Page Content -->
+            <section class="vh-auto min-vh-100">
+                <div class="container py-50 h-100">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="col col-lg-9 col-xl-7 my-5 position-relative">
+                            <div class="card rounded-3 mt-5">
+                                <div class="card-body p-4">
+
+                                    <div class="d-flex">
+                                        <div class="form-check form-switch ms-auto">
+                                            <label class="form-check-label" for="lightSwitch">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-brightness-high mb-1" viewBox="0 0 16 16">
+                                                    <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+                                                </svg>
+                                            </label>
+                                            <input class="form-check-input" type="checkbox" id="lightSwitch">
+                                        </div>
+                                    </div><h4 class="text-center my-1 pb-3 font-weight-bold">To Do List</h4>
+
+                                    <form class="row justify-content-center align-items-center mb-4 pb-2">
+                                        <div class="col-9 mt-4">
+                                            <div class="form-outline">
+                                                <input type="text" id="form1" class="form-control">
+                                                <label class="form-label" for="form1">Ingresa tu tarea aquí</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm mb-1">
+                                            <button type="button" id="addButton" class="btn btn-primary">Guardar</button>
+                                        </div>
+                                    </form>
+
+
+
+                                    <table class="table mb-4 overflow-auto">
+                                        <thead>
+                                        <tr class="text-center">
+                                            <th scope="col">No.</th>
+                                            <th scope="col">Tarea</th>
+                                            <th scope="col">Estado</th>
+                                            <th scope="col">Acciones</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody id="dataTable">
+
+                                        </tbody></table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- End of Main Content -->
+
+        <!-- Footer -->
+        <footer class="sticky-footer">
+            <div class="container my-auto">
+                <div class="copyright text-center my-auto">
+                    <span>Copyright © Luciano Perez | 2023</span>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+</div>
+<!-- End of Page Wrapper -->
+
+<!-- Scroll to Top Button-->
+
+
+
+<!-- Bootstrap core JavaScript-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<script src="js/theme.js"></script>
+<script src="js/addTask.js"></script>
+
+</body></html>
