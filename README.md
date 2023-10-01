@@ -1,2 +1,2 @@
-# todolist.github.io
- Spring Boot Todo List App
+# Todo List App
+  Todo List App created using Spring Boot.
